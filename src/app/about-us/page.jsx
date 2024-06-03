@@ -1,8 +1,11 @@
+import Navbar2 from '@/components/Navbar2'
 import React from 'react'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <Navbar2/>
+    </div>
   )
 }
 

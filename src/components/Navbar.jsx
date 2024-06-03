@@ -9,7 +9,7 @@ import Button from "./Button";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="bg-[#f7f8fd] border-b-2 top-0 z-auto ">
+    <div className="bg-[#f7f8fd] border-b-2 top-0 z-auto max-w-6xl mx-auto ">
       <div className="flex justify-between items-center max-w-[100%] m-auto bg-[#f7f8fd]  py-3 px-4 ">
         <img
           className="h-9 "
@@ -47,7 +47,7 @@ const Navbar = () => {
           })}
         </div>
 
-        <Button name="Apply Now"/>
+        <Button name="Apply Now" />
         <div className="md:hidden border h-9 w-9 flex justify-center items-center bg-[#262f6e] rounded-[8px]">
           <Menu
             onClick={() => {
