@@ -7,7 +7,7 @@ import { Menu, X } from "lucide-react";
 const Navbar2 = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="px-5 py-2 border-b-2 max-w-6xl mx-auto ">
+    <div className="px-5 py-2 border-b-2 max-w-6xl mx-auto bg-slate-500 ">
       <div className="flex justify-between items-center ">
         <img className="w-16" src="favicon.ico" alt="" />
         <div
