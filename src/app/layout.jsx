@@ -6,7 +6,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Blog App</title>
+        <title>Edify Elite</title>
       </head>
       <body>
         <Navbar />
