@@ -19,7 +19,7 @@ const Card = () => {
         <div className="overflow-hidden rounded-lg mb-4 ">
           <img
             src="https://t3.ftcdn.net/jpg/03/88/97/92/360_F_388979227_lKgqMJPO5ExItAuN4tuwyPeiknwrR7t2.jpg"
-            className="h-[400px] w-full object-cover hover:scale-125 transition-all duration-500 "
+            className=" w-full object-cover hover:scale-125 transition-all duration-500 "
             alt=""
           />
         </div>
