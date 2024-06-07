@@ -18,9 +18,8 @@ const Navbar = () => {
             alt=""
           />
           <div
-            className={`${
-              open ? "translate-x-0" : "-translate-x-[120%]"
-            } flex gap-4 md:gap-8 md:relative transition-all duration-500  absolute md:translate-x-0 flex-col inset-0 md:flex-row bg-[#f7f8fd] md:bg-transparent px-4 `}
+            className={`${open ? "translate-x-0" : "-translate-x-[120%]"
+              } flex gap-4 md:gap-8 md:relative transition-all duration-500  absolute md:translate-x-0 flex-col inset-0 md:flex-row bg-[#f7f8fd] md:bg-transparent px-4 `}
           >
             <div className="md:hidden border-b-2  bg-[#f7f8fd] py-3 ">
               <div className=" border h-9 w-9 flex justify-center float-right items-center bg-[#262f6e] rounded-[8px] ">
@@ -47,8 +46,9 @@ const Navbar = () => {
               );
             })}
           </div>
-
-          <Button name="Apply Now" />
+          <div className="hidden md:block">
+            <Button name="Apply Now" />
+          </div>
           <div className="md:hidden border h-9 w-9 flex justify-center items-center bg-[#262f6e] rounded-[8px]">
             <Menu
               onClick={() => {

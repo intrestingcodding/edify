@@ -3,14 +3,17 @@ import Button from "./Button";
 
 const Baner = (props) => {
   return (
-    <div className="flex  justify-between  max-w-6xl mx-auto px-4 items-center mt-10">
+    <div className="flex px-4 md:flex-row justify-between flex-col  mx-auto max-w-5xl  md:items-center py-10 gap-4  ">
+
       <div className="">
-        <p className="text-[#262f6e] text-lg font-semibold">{props.span}</p>
-        <h1 className="text-6xl font-semibold ">{props.heading}</h1>
+        <p className="text-[#262f6e]  font-semibold lg:text-lg md:text-base sm:text-sm">{props.span}</p>
+        <h1 className=" font-semibold lg:text-6xl md:text-5xl text-4xl ">{props.heading}</h1>
       </div>
-      <div>
+
+      <div className="flex">
         <Button name={props.btn} />
       </div>
+
     </div>
   );
 };

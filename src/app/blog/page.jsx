@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div>
       <div className="bg-[#f7f8fd] py-16 px-4 ">
-        <div className="grid  gap-5 md:grid-cols-2 max-xl:grid-cols-3 mb-5">
+        <div className="grid  gap-5 md:grid-cols-2 xl:grid-cols-3 mb-5">
           <Card />
           <Card />
           <Card />
