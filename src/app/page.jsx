@@ -5,7 +5,7 @@ import { Donut } from "lucide-react";
 
 const page = () => {
   return (
-    <div className="bg-[#f7f8fd] text-black mb-16">
+    <div className="bg-[#f7f8fd]  mb-16">
       <div className=" mx-auto ">
         <Hero />
         <div className="bg-white py-16 px-4">
