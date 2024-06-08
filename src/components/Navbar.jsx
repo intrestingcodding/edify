@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { NavbarLinks } from "./NavbarLinks";
-import { ArrowRight, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import Button from "./Button";
 
@@ -32,19 +32,12 @@ const Navbar = () => {
                 />
               </div>
             </div>
-            {NavbarLinks.map((v, i) => {
-              return (
-                <>
-                  <Link
-                    onClick={() => setOpen(!open)}
-                    className="hover:text-[#262f6e]"
-                    href={v.route}
-                  >
-                    {v.linkName}
-                  </Link>
-                </>
-              );
-            })}
+            <div className="flex gap-4">
+              <Link className="hover:text-[#262f6e]" href="/">Home</Link>
+              <Link className="hover:text-[#262f6e]" href="/about">About</Link>
+              <Link className="hover:text-[#262f6e]" href="/blog">Blog</Link>
+              <Link className="hover:text-[#262f6e]" href="/contact">Contact</Link>
+            </div>
           </div>
           <div className="hidden md:block">
             <Button name="Apply Now" />

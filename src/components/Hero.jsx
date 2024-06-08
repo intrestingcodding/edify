@@ -35,10 +35,8 @@ const Hero = () => {
             height="315"
             src="https://www.youtube.com/embed/rbOLGsu5Mwc?si=dQm5p5RivV1xwxvM"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+
           ></iframe>
         </div>
       </div>
