@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center max-w-[100%] m-auto bg-[#f7f8fd]  py-3 px-4 ">
           <img
             className="h-9 "
-            src="https://edify-elite.vercel.app/images/logo.png"
+            src="logo.png"
             alt=""
           />
           <div

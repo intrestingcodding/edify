@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div
       style={{ backgroundPosition: "bottom center" }}
-      className=" px-4 min-h-[90vh] bg-no-repeat bg-[url(https://demo.awaikenthemes.com/weebix/wp-content/uploads/2024/04/hero-bg.png)] grid gap-5  py-16  max-w-6xl mx-auto  items-center md:grid-cols-2 "
+      className=" px-4 min-h-[90vh] bg-no-repeat bg-[url(https://demo.awaikenthemes.com/weebix/wp-content/uploads/2024/04/hero-bg.png)] grid gap-5  py-16  max-w-6xl mx-auto  items-center md:grid-cols-[2fr,1fr] "
     >
       <div className="py-10">
         <div className="">
@@ -27,19 +27,15 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="">
-        <div className=" ">
-          <iframe
-            className="w-full"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/rbOLGsu5Mwc?si=dQm5p5RivV1xwxvM"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 
-          ></iframe>
+      <div className="">
+        <div className=" relative ">
+          <video controls className="w-[300px] absolute top-2  translate-x-[32px]" src="elite.mp4"></video>
+          <img src="laptop-black-realistic.png" className="w-[390px]" alt="" />
+
         </div>
       </div>
+
     </div>
   );
 };
