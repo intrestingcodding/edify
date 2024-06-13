@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center max-w-[100%] m-auto bg-[#f7f8fd]  py-3 px-4 ">
           <img
             className="h-9 "
-            src="logo.png"
+            src="https://edifyelite.com.pk/images/logo.png"
             alt=""
           />
           <div
@@ -32,7 +32,7 @@ const Navbar = () => {
                 />
               </div>
             </div>
-            <div className="flex gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
               <Link className="hover:text-[#262f6e]" href="/">Home</Link>
               <Link className="hover:text-[#262f6e]" href="/about">About</Link>
               <Link className="hover:text-[#262f6e]" href="/blog">Blog</Link>

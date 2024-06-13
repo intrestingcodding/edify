@@ -30,8 +30,8 @@ const Hero = () => {
 
       <div className="">
         <div className=" relative ">
-          <video controls className="w-[300px] absolute top-2  translate-x-[32px]" src="elite.mp4"></video>
-          <img src="laptop-black-realistic.png" className="w-[390px]" alt="" />
+          <video controls className="w-[80%] absolute top-2  translate-x-[12%]" src="https://edifyelite.com.pk/videos/elite.mp4"></video>
+          <img src="https://edifyelite.com.pk/images/laptop-black-realistic.png" className="" alt="" />
 
         </div>
       </div>
