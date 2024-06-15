@@ -2,15 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
 * {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
-:root{
-  --primaryColor:"#262f6e",
-  --lightWhite:"#f7f8fd",
+.heading {
+  @apply text-red-500;
 }
